@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+}
+
+/* Header */
+header {
+  display: flex;
+  background-color: #020351;
+  align-items: center;
+  font-size: 35px;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #040506;
+}
+
+h2 {
+  color: #fff;
+}
+
+header .logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #040506;
+  padding: 5px;
+}
+
+.burger {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.news-ticker {
+  flex: 1;
+  font-style: italic;
+  color: #333;
+}
+
+/* Side Navigation */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #004080;
+  color: #fff;
+  transition: 0.3s;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.side-nav ul {
+  list-style: none;
+}
+
+.side-nav ul li {
+  padding: 12px 20px;
+}
+
+.side-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.side-nav ul li a:hover {
+  background: #0066cc;
+}
+
+/* Overlay Blur */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background: rgba(0,0,0,0.3);
+  z-index: 500;
+  display: none;
+}
+
+/* Main Content Justified */
+main, main p, main li, main section {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+main section {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+main h3 {
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #004080;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer .x {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 4px;
+}
+
+footer .x a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer .x a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  margin: 2px 0 0 0;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* Layout fix to make footer stick bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
