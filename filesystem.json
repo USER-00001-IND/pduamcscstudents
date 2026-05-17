@@ -4,167 +4,74 @@
   "children": [
     {
       "type": "directory",
-      "name": ".git",
+      "name": ".github",
       "children": [
         {
           "type": "directory",
-          "name": "hooks",
+          "name": "workflows",
           "children": [
             {
               "type": "file",
-              "name": "applypatch-msg.sample",
-              "size": 478
-            },
-            {
-              "type": "file",
-              "name": "commit-msg.sample",
-              "size": 1972
-            },
-            {
-              "type": "file",
-              "name": "fsmonitor-watchman.sample",
-              "size": 4611
-            },
-            {
-              "type": "file",
-              "name": "post-update.sample",
-              "size": 189
-            },
-            {
-              "type": "file",
-              "name": "pre-applypatch.sample",
-              "size": 424
-            },
-            {
-              "type": "file",
-              "name": "pre-commit.sample",
-              "size": 1649
-            },
-            {
-              "type": "file",
-              "name": "pre-merge-commit.sample",
-              "size": 416
-            },
-            {
-              "type": "file",
-              "name": "pre-push.sample",
-              "size": 1374
-            },
-            {
-              "type": "file",
-              "name": "pre-rebase.sample",
-              "size": 4898
-            },
-            {
-              "type": "file",
-              "name": "pre-receive.sample",
-              "size": 544
-            },
-            {
-              "type": "file",
-              "name": "prepare-commit-msg.sample",
-              "size": 1492
-            },
-            {
-              "type": "file",
-              "name": "push-to-checkout.sample",
-              "size": 2783
-            },
-            {
-              "type": "file",
-              "name": "sendemail-validate.sample",
-              "size": 2308
-            },
-            {
-              "type": "file",
-              "name": "update.sample",
-              "size": 3650
+              "name": "test.yml",
+              "size": 247
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "archive",
+      "children": [
+        {
+          "type": "file",
+          "name": "legacy-gallery.html",
+          "size": 2677
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "assets",
+      "children": [
         {
           "type": "directory",
-          "name": "info",
-          "children": [
-            {
-              "type": "file",
-              "name": "exclude",
-              "size": 240
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "logs",
+          "name": "documents",
           "children": [
             {
               "type": "directory",
-              "name": "refs",
+              "name": "materials",
               "children": [
                 {
-                  "type": "directory",
-                  "name": "heads",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "main",
-                      "size": 226
-                    }
-                  ]
-                },
-                {
-                  "type": "directory",
-                  "name": "remotes",
-                  "children": [
-                    {
-                      "type": "directory",
-                      "name": "origin",
-                      "children": [
-                        {
-                          "type": "file",
-                          "name": "HEAD",
-                          "size": 226
-                        }
-                      ]
-                    }
-                  ]
+                  "type": "file",
+                  "name": "rimjhim bai pdf .pdf",
+                  "size": 70329763
                 }
               ]
             },
             {
-              "type": "file",
-              "name": "HEAD",
-              "size": 226
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "objects",
-          "children": [
-            {
               "type": "directory",
-              "name": "info",
-              "children": []
-            },
-            {
-              "type": "directory",
-              "name": "pack",
+              "name": "notices",
               "children": [
                 {
                   "type": "file",
-                  "name": "pack-3597b86a22d1c44cd37f2b678a6d1a8aa754016d.idx",
-                  "size": 3284
+                  "name": "Freshers Posponed.jpg",
+                  "size": 112117
                 },
                 {
                   "type": "file",
-                  "name": "pack-3597b86a22d1c44cd37f2b678a6d1a8aa754016d.pack",
-                  "size": 86260953
+                  "name": "Gauhati-University-Holiday-LIst-2025.pdf",
+                  "size": 527220
                 },
                 {
                   "type": "file",
-                  "name": "pack-3597b86a22d1c44cd37f2b678a6d1a8aa754016d.rev",
-                  "size": 368
+                  "name": "n2025-10-21.jpg",
+                  "size": 159738
+                },
+                {
+                  "type": "file",
+                  "name": "Tribute to zubeen.jpg",
+                  "size": 114944
                 }
               ]
             }
@@ -172,254 +79,185 @@
         },
         {
           "type": "directory",
-          "name": "refs",
+          "name": "images",
           "children": [
             {
               "type": "directory",
-              "name": "heads",
+              "name": "brand",
               "children": [
                 {
                   "type": "file",
-                  "name": "main",
-                  "size": 41
+                  "name": "logoLeft.png",
+                  "size": 120071
+                },
+                {
+                  "type": "file",
+                  "name": "logoRight.png",
+                  "size": 49802
                 }
               ]
             },
             {
               "type": "directory",
-              "name": "remotes",
+              "name": "gallery",
               "children": [
                 {
-                  "type": "directory",
-                  "name": "origin",
-                  "children": [
-                    {
-                      "type": "file",
-                      "name": "HEAD",
-                      "size": 30
-                    }
-                  ]
+                  "type": "file",
+                  "name": "mz1.jpg",
+                  "size": 948647
+                },
+                {
+                  "type": "file",
+                  "name": "pic.jpg",
+                  "size": 172192
+                },
+                {
+                  "type": "file",
+                  "name": "spic.jpg",
+                  "size": 219372
                 }
               ]
             },
             {
               "type": "directory",
-              "name": "tags",
-              "children": []
-            }
-          ]
-        },
-        {
-          "type": "file",
-          "name": "config",
-          "size": 346
-        },
-        {
-          "type": "file",
-          "name": "description",
-          "size": 73
-        },
-        {
-          "type": "file",
-          "name": "HEAD",
-          "size": 21
-        },
-        {
-          "type": "file",
-          "name": "index",
-          "size": 7089
-        },
-        {
-          "type": "file",
-          "name": "packed-refs",
-          "size": 112
-        }
-      ]
-    },
-    {
-      "type": "directory",
-      "name": "F",
-      "children": [
-        {
-          "type": "file",
-          "name": "Freshers Posponed.jpg",
-          "size": 112117
-        },
-        {
-          "type": "file",
-          "name": "Gauhati-University-Holiday-LIst-2025.pdf",
-          "size": 527220
-        },
-        {
-          "type": "file",
-          "name": "n2025-10-21.jpg",
-          "size": 159738
-        },
-        {
-          "type": "file",
-          "name": "Tribute to zubeen.jpg",
-          "size": 114944
-        }
-      ]
-    },
-    {
-      "type": "directory",
-      "name": "I",
-      "children": [
-        {
-          "type": "directory",
-          "name": "piC",
-          "children": [
-            {
-              "type": "file",
-              "name": "mz1.jpg",
-              "size": 948647
+              "name": "profiles",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "abhijit.png",
+                  "size": 277072
+                },
+                {
+                  "type": "file",
+                  "name": "arpan.png",
+                  "size": 282849
+                },
+                {
+                  "type": "file",
+                  "name": "ban.jpeg",
+                  "size": 11542
+                },
+                {
+                  "type": "file",
+                  "name": "bishalA.png",
+                  "size": 230778
+                },
+                {
+                  "type": "file",
+                  "name": "DT-removebg-preview.png",
+                  "size": 101209
+                },
+                {
+                  "type": "file",
+                  "name": "gracy__1_-removebg-preview.png",
+                  "size": 142077
+                },
+                {
+                  "type": "file",
+                  "name": "hirok.png",
+                  "size": 47994
+                },
+                {
+                  "type": "file",
+                  "name": "jatin.jpg",
+                  "size": 178622
+                },
+                {
+                  "type": "file",
+                  "name": "johnA.jpg",
+                  "size": 1149658
+                },
+                {
+                  "type": "file",
+                  "name": "joyA.png",
+                  "size": 223976
+                },
+                {
+                  "type": "file",
+                  "name": "keleng-edited.png",
+                  "size": 185984
+                },
+                {
+                  "type": "file",
+                  "name": "ks-edited.png",
+                  "size": 190971
+                },
+                {
+                  "type": "file",
+                  "name": "manjit.png",
+                  "size": 220852
+                },
+                {
+                  "type": "file",
+                  "name": "monsum.png",
+                  "size": 179457
+                },
+                {
+                  "type": "file",
+                  "name": "moonmoon.jpg",
+                  "size": 126409
+                },
+                {
+                  "type": "file",
+                  "name": "mrinmayK.jpg",
+                  "size": 554149
+                },
+                {
+                  "type": "file",
+                  "name": "pro.webp",
+                  "size": 870
+                },
+                {
+                  "type": "file",
+                  "name": "r@j.dng",
+                  "size": 7535596
+                },
+                {
+                  "type": "file",
+                  "name": "rahatA.jpg",
+                  "size": 154333
+                },
+                {
+                  "type": "file",
+                  "name": "raj-edited.png",
+                  "size": 124643
+                },
+                {
+                  "type": "file",
+                  "name": "rana.png",
+                  "size": 271245
+                },
+                {
+                  "type": "file",
+                  "name": "ReJ.jpg",
+                  "size": 1390875
+                },
+                {
+                  "type": "file",
+                  "name": "ruma.jpg",
+                  "size": 73535
+                },
+                {
+                  "type": "file",
+                  "name": "sisir-edited.png",
+                  "size": 112724
+                },
+                {
+                  "type": "file",
+                  "name": "Son.webp",
+                  "size": 45582
+                },
+                {
+                  "type": "file",
+                  "name": "SumandipA.jpg",
+                  "size": 145421
+                }
+              ]
             },
             {
               "type": "file",
-              "name": "pic.jpg",
-              "size": 172192
-            },
-            {
-              "type": "file",
-              "name": "spic.jpg",
-              "size": 219372
-            }
-          ]
-        },
-        {
-          "type": "directory",
-          "name": "proF",
-          "children": [
-            {
-              "type": "file",
-              "name": "abhijit.png",
-              "size": 277072
-            },
-            {
-              "type": "file",
-              "name": "arpan.png",
-              "size": 282849
-            },
-            {
-              "type": "file",
-              "name": "ban.jpeg",
-              "size": 11542
-            },
-            {
-              "type": "file",
-              "name": "bishalA.png",
-              "size": 230778
-            },
-            {
-              "type": "file",
-              "name": "DT-removebg-preview.png",
-              "size": 101209
-            },
-            {
-              "type": "file",
-              "name": "gracy__1_-removebg-preview.png",
-              "size": 142077
-            },
-            {
-              "type": "file",
-              "name": "hirok.png",
-              "size": 47994
-            },
-            {
-              "type": "file",
-              "name": "jatin.jpg",
-              "size": 178622
-            },
-            {
-              "type": "file",
-              "name": "johnA.jpg",
-              "size": 1149658
-            },
-            {
-              "type": "file",
-              "name": "joyA.png",
-              "size": 223976
-            },
-            {
-              "type": "file",
-              "name": "keleng-edited.png",
-              "size": 185984
-            },
-            {
-              "type": "file",
-              "name": "ks-edited.png",
-              "size": 190971
-            },
-            {
-              "type": "file",
-              "name": "manjit.png",
-              "size": 220852
-            },
-            {
-              "type": "file",
-              "name": "monsum.png",
-              "size": 179457
-            },
-            {
-              "type": "file",
-              "name": "moonmoon.jpg",
-              "size": 126409
-            },
-            {
-              "type": "file",
-              "name": "mrinmayK.jpg",
-              "size": 554149
-            },
-            {
-              "type": "file",
-              "name": "pro.webp",
-              "size": 870
-            },
-            {
-              "type": "file",
-              "name": "r@j.dng",
-              "size": 7535596
-            },
-            {
-              "type": "file",
-              "name": "rahatA.jpg",
-              "size": 154333
-            },
-            {
-              "type": "file",
-              "name": "raj-edited.png",
-              "size": 124643
-            },
-            {
-              "type": "file",
-              "name": "rana.png",
-              "size": 271245
-            },
-            {
-              "type": "file",
-              "name": "ReJ.jpg",
-              "size": 1390875
-            },
-            {
-              "type": "file",
-              "name": "ruma.jpg",
-              "size": 73535
-            },
-            {
-              "type": "file",
-              "name": "sisir-edited.png",
-              "size": 112724
-            },
-            {
-              "type": "file",
-              "name": "Son.webp",
-              "size": 45582
-            },
-            {
-              "type": "file",
-              "name": "SumandipA.jpg",
-              "size": 145421
+              "name": "main.jpeg",
+              "size": 704222
             }
           ]
         }
@@ -427,85 +265,145 @@
     },
     {
       "type": "directory",
-      "name": "Image",
+      "name": "css",
       "children": [
         {
           "type": "file",
-          "name": "DT-removebg-preview.png",
-          "size": 101209
+          "name": "a.css",
+          "size": 2673
         },
         {
           "type": "file",
-          "name": "keleng-edited.png",
-          "size": 185984
+          "name": "A1.css",
+          "size": 6944
         },
         {
           "type": "file",
-          "name": "ks-edited.png",
-          "size": 190971
+          "name": "A2.css",
+          "size": 1857
         },
         {
           "type": "file",
-          "name": "monsum.png",
-          "size": 179457
+          "name": "A3.css",
+          "size": 4660
         },
         {
           "type": "file",
-          "name": "mz1.jpg",
-          "size": 948647
+          "name": "admin.css",
+          "size": 3109
         },
         {
           "type": "file",
-          "name": "pic.jpg",
-          "size": 172192
+          "name": "c.css",
+          "size": 4369
         },
         {
           "type": "file",
-          "name": "pro.webp",
-          "size": 870
+          "name": "F.css",
+          "size": 4369
         },
         {
           "type": "file",
-          "name": "raj-edited.png",
-          "size": 124643
+          "name": "g.css",
+          "size": 2909
         },
         {
           "type": "file",
-          "name": "sisir-edited.png",
-          "size": 112724
+          "name": "S.css",
+          "size": 3804
         },
         {
           "type": "file",
-          "name": "spic.jpg",
-          "size": 219372
+          "name": "S1.css",
+          "size": 4337
+        },
+        {
+          "type": "file",
+          "name": "style.css",
+          "size": 6365
         }
       ]
     },
     {
       "type": "directory",
-      "name": "m",
+      "name": "js",
       "children": [
         {
           "type": "file",
-          "name": "rimjhim bai pdf .pdf",
-          "size": 70329763
+          "name": "a.js",
+          "size": 1135
+        },
+        {
+          "type": "file",
+          "name": "A1.js",
+          "size": 1137
+        },
+        {
+          "type": "file",
+          "name": "A2.js",
+          "size": 0
+        },
+        {
+          "type": "file",
+          "name": "A3.js",
+          "size": 0
+        },
+        {
+          "type": "file",
+          "name": "admin.js",
+          "size": 6318
+        },
+        {
+          "type": "file",
+          "name": "c.js",
+          "size": 3262
+        },
+        {
+          "type": "file",
+          "name": "F.js",
+          "size": 0
+        },
+        {
+          "type": "file",
+          "name": "g.js",
+          "size": 1135
+        },
+        {
+          "type": "file",
+          "name": "S.js",
+          "size": 0
+        },
+        {
+          "type": "file",
+          "name": "S1.js",
+          "size": 1372
+        },
+        {
+          "type": "file",
+          "name": "script.js",
+          "size": 1676
+        },
+        {
+          "type": "file",
+          "name": "site-config.js",
+          "size": 4289
         }
       ]
     },
     {
       "type": "directory",
-      "name": "materials",
+      "name": "scripts",
       "children": [
         {
           "type": "file",
-          "name": "rimjhim bai pdf .pdf",
-          "size": 70329763
+          "name": "check-links.js",
+          "size": 3620
         }
       ]
     },
     {
       "type": "directory",
-      "name": "test",
+      "name": "tests",
       "children": [
         {
           "type": "file",
@@ -515,7 +413,7 @@
         {
           "type": "file",
           "name": "hs1test.html",
-          "size": 1583
+          "size": 1581
         },
         {
           "type": "file",
@@ -531,113 +429,48 @@
     },
     {
       "type": "file",
-      "name": "a.css",
-      "size": 2673
-    },
-    {
-      "type": "file",
       "name": "a.html",
-      "size": 5887
-    },
-    {
-      "type": "file",
-      "name": "a.js",
-      "size": 1135
-    },
-    {
-      "type": "file",
-      "name": "A1.css",
-      "size": 6944
+      "size": 5934
     },
     {
       "type": "file",
       "name": "A1.html",
-      "size": 5638
-    },
-    {
-      "type": "file",
-      "name": "A1.js",
-      "size": 1137
-    },
-    {
-      "type": "file",
-      "name": "A2.css",
-      "size": 1857
+      "size": 5709
     },
     {
       "type": "file",
       "name": "A2.html",
-      "size": 2456
-    },
-    {
-      "type": "file",
-      "name": "A2.js",
-      "size": 0
-    },
-    {
-      "type": "file",
-      "name": "A3",
-      "size": 2588
-    },
-    {
-      "type": "file",
-      "name": "A3.css",
-      "size": 4660
+      "size": 2503
     },
     {
       "type": "file",
       "name": "A3.html",
-      "size": 14464
+      "size": 15087
     },
     {
       "type": "file",
-      "name": "A3.js",
-      "size": 0
-    },
-    {
-      "type": "file",
-      "name": "c.css",
-      "size": 4369
+      "name": "admin.html",
+      "size": 2951
     },
     {
       "type": "file",
       "name": "c.html",
-      "size": 6031
-    },
-    {
-      "type": "file",
-      "name": "c.js",
-      "size": 3262
-    },
-    {
-      "type": "file",
-      "name": "F.css",
-      "size": 4369
+      "size": 6193
     },
     {
       "type": "file",
       "name": "F.html",
-      "size": 3958
+      "size": 4085
     },
     {
       "type": "file",
-      "name": "F.js",
-      "size": 0
-    },
-    {
-      "type": "file",
-      "name": "g.css",
-      "size": 2909
+      "name": "filesystem.json",
+      "size": 10837
     },
     {
       "type": "file",
       "name": "G.html",
-      "size": 2197
-    },
-    {
-      "type": "file",
-      "name": "g.js",
-      "size": 1135
+      "size": 2196
     },
     {
       "type": "file",
@@ -647,67 +480,27 @@
     {
       "type": "file",
       "name": "index.html",
-      "size": 4377
+      "size": 3480
     },
     {
       "type": "file",
-      "name": "logoLeft.png",
-      "size": 120071
-    },
-    {
-      "type": "file",
-      "name": "logoRight.png",
-      "size": 49802
-    },
-    {
-      "type": "file",
-      "name": "main.jpeg",
-      "size": 704222
+      "name": "package.json",
+      "size": 136
     },
     {
       "type": "file",
       "name": "package-lock.json",
-      "size": 95
-    },
-    {
-      "type": "file",
-      "name": "S.css",
-      "size": 3804
+      "size": 195
     },
     {
       "type": "file",
       "name": "S.html",
-      "size": 6186
-    },
-    {
-      "type": "file",
-      "name": "S.js",
-      "size": 0
-    },
-    {
-      "type": "file",
-      "name": "S1.css",
-      "size": 4337
+      "size": 6522
     },
     {
       "type": "file",
       "name": "S1.html",
-      "size": 12976
-    },
-    {
-      "type": "file",
-      "name": "S1.js",
-      "size": 1372
-    },
-    {
-      "type": "file",
-      "name": "script.js",
-      "size": 1676
-    },
-    {
-      "type": "file",
-      "name": "style.css",
-      "size": 6365
+      "size": 13551
     },
     {
       "type": "file",

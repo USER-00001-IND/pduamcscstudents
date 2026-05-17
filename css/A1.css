@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #000;
+}
+
+/* Header */
+header {
+  display: flex;
+  background-color: #020351;
+  align-items: center;
+  font-size: 35px;
+  justify-content: space-between;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #040506;
+}
+h2 {
+  color: #fff;
+
+}
+
+header .logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.header-text {
+  flex: 1;
+  text-align: center;
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #040506;
+  padding: 5px;
+}
+
+.burger {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.news-ticker {
+  flex: 1;
+  font-style: italic;
+  color: #333;
+}
+
+/* Side Navigation */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #004080;
+  color: #fff;
+  transition: 0.3s;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.side-nav ul {
+  list-style: none;
+}
+
+.side-nav ul li {
+  padding: 12px 20px;
+}
+
+.side-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.side-nav ul li a:hover {
+  background: #0066cc;
+}
+
+/* Overlay Blur */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background: rgba(0,0,0,0.3);
+  z-index: 500;
+  display: none;
+}
+/* ====== ACADEMICS SECTION ====== */
+
+main {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f6ff;
+}
+
+.academics-section {
+  max-width: 1000px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* --- Section Headings --- */
+.academics-section h2 {
+  font-size: 2rem;
+  color: #020351;
+  border-bottom: 3px solid #020351;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.academics-section h3 {
+  font-size: 1.4rem;
+  color: #1425a1;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* --- Paragraphs --- */
+.academics-section p {
+  font-size: 1rem;
+  text-align: justify;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* --- Lists --- */
+.academics-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.academics-section ul li {
+  background: #eaf0ff;
+  margin-bottom: 8px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: #000;
+}
+
+.academics-section ul li:hover {
+  background: #d3dcff;
+  transform: translateX(5px);
+}
+
+/* --- Button (View Calendar) --- */
+.academics-section .btn {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #020351;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.academics-section .btn:hover {
+  background-color: #1b1da0;
+  transform: scale(1.05);
+}
+
+/* --- Footer Styling Update (for better layout) --- */
+footer {
+  background: #020351;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .x {
+  margin-bottom: 5px;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .academics-section {
+    padding: 20px;
+  }
+
+  .academics-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .academics-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .academics-section p,
+  .academics-section ul li {
+    font-size: 0.95rem;
+  }
+
+  
+}
+ 
+/* ===== QUICK TEST SECTION ===== */
+.quick-test {
+  margin: 40px auto;
+  background: linear-gradient(135deg, #f5f8ff, #e8ecff);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- Section Heading & Description --- */
+.quick-test h3,
+.quick-test + p {
+  text-align: center;
+  margin: 0 auto 20px;
+  color: #020351;
+}
+
+.quick-test + p {
+  font-size: 1.05rem;
+  color: #333;
+  max-width: 800px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* --- Groups (HS, Degree, Result) --- */
+.test-group {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.test-group:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.test-group h4 {
+  color: #0a1c9c;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  border-left: 4px solid #020351;
+  padding-left: 10px;
+}
+
+/* --- List Styling --- */
+.test-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.test-group ul li {
+  margin-bottom: 10px;
+}
+
+.test-group ul li a {
+  display: block;
+  background: #eef2ff;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.test-group ul li a:hover {
+  background: #dce3ff;
+  color: #020351;
+  transform: translateX(5px);
+}
+
+/* --- Result Button --- */
+.result-btn {
+  background-color: #020351;
+  color: #fff !important;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.result-btn:hover {
+  background-color: #1b1da0;
+  transform: scale(1.05);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .quick-test {
+    padding: 20px;
+  }
+
+  .test-group {
+    padding: 15px;
+  }
+
+  .test-group h4 {
+    font-size: 1.1rem;
+  }
+
+  .test-group ul li a {
+    font-size: 0.95rem;
+  }
+
+  .quick-test + p {
+    font-size: 0.95rem;
+  }
+}
+
+ 
+/* ===== FOOTER ===== */
+footer {
+  background: #004080;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;          /* Full viewport width */
+  position: relative;    /* keep it at bottom naturally */
+}
+
+footer .x {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 6px;
+}
+
+footer .x a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer .x a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 2px 0 0 0;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* Layout fix to stick footer at bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}

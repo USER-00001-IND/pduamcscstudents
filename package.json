@@ -1,0 +1,8 @@
+{
+  "name": "pduamcscstudents",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/check-links.js"
+  }
+}
