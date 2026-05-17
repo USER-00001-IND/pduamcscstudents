@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - PDUAM CSC</title>
+  <link rel="stylesheet" href="admin.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="page-header">
+    <h1>Admin Panel</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="G.html">Gallery</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main class="admin-main">
+    <section class="admin-panel">
+      <h2>Site settings</h2>
+      <div class="section-block form-row">
+        <label>
+          <span>News ticker text</span>
+          <input type="text" id="adminNewsTicker" placeholder="Enter news ticker text" />
+        </label>
+        <label>
+          <span>Welcome paragraph 1</span>
+          <textarea id="adminWelcome1" placeholder="Enter first welcome paragraph"></textarea>
+        </label>
+        <label>
+          <span>Welcome paragraph 2</span>
+          <textarea id="adminWelcome2" placeholder="Enter second welcome paragraph"></textarea>
+        </label>
+      </div>
+    </section>
+
+    <section class="admin-panel">
+      <h2>Notifications</h2>
+      <div id="notificationEditor" class="list-editor"></div>
+      <div class="button-row">
+        <button type="button" id="add-notificationEditor" class="export">Add notification</button>
+      </div>
+    </section>
+
+    <section class="admin-panel">
+      <h2>Resources</h2>
+      <div id="resourceEditor" class="list-editor"></div>
+      <div class="button-row">
+        <button type="button" id="add-resourceEditor" class="export">Add resource</button>
+      </div>
+    </section>
+
+    <section class="admin-panel">
+      <h2>Gallery</h2>
+      <div id="galleryEditor" class="list-editor"></div>
+      <div class="button-row">
+        <button type="button" id="add-galleryEditor" class="export">Add gallery item</button>
+      </div>
+    </section>
+
+    <section class="admin-panel">
+      <h2>Actions</h2>
+      <div class="button-row">
+        <button type="button" id="saveConfigBtn" class="save">Save configuration</button>
+        <button type="button" id="resetConfigBtn" class="reset">Reset defaults</button>
+        <button type="button" id="exportConfigBtn" class="export">Download JSON</button>
+        <button type="button" id="clearConfigBtn" class="clear">Clear local config</button>
+      </div>
+      <p id="adminStatus" class="status-message"></p>
+      <p style="margin-top: 1rem; color: var(--muted);">Note: settings are stored locally in your browser using localStorage. Open pages again after saving to apply the updates.</p>
+    </section>
+  </main>
+
+  <script src="site-config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
